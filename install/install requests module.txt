@@ -1,0 +1,5 @@
+1. open command prompt
+2. write: pip install requests
+3. if show update, then write: python -m pip install --upgrade pip
+
+successfully install

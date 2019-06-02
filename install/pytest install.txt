@@ -1,0 +1,3 @@
+pip install pytest
+
+when successfully install. for testing you need to write "pytest file_name.py"

@@ -1,0 +1,2 @@
+sum(list)	///if we pass any list, then it will sum all the values of list
+len(list)	///pass a list and this will find the length of the list

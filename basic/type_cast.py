@@ -1,0 +1,15 @@
+a=input("input a number:")
+b=input("input a number:")
+print(a+b)
+a=input("input a number:")
+b=input("input a number:")
+a=int(a)
+b=int(b)
+print(a+b)
+a=int(input("input a number:"))
+b=int(input("input a number:"))
+print(a+b)
+
+x = "4"
+y=float(x)
+print(y)
