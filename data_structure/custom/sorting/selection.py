@@ -1,14 +1,14 @@
 def selection_sort(l):
-    position = 0
-    small_element = l[0]
-    for i in range (len(l)):
-        if l[i] != (len(l) - 1):
-            if l[i] > l[i+1]:
-                small_element = l[i+1]
-                l[i+1] = l[i]
-                l[i] = small_element
+   n = len(l)
+   for i in range(0, n-1):
+   	index_min = i
+   	for j in range(i+1, n):
+   		if l[j] < l[index_min]:
+   			index_min = j
+   	if index_min != i:
+   		l[i], l[index_min] = l[index_min], l[i]
 
-    return l
+   return l
 
 
 
